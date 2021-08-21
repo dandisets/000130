@@ -8,8 +8,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Pei, Felix (2021) Dorsomedial frontal cortex spiking activity during time
-  interval reproduction task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft
+citation: Pei, Felix (2021) Macaque dorsomedial frontal cortex spiking activity during
+  time interval reproduction task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -31,7 +31,7 @@ keywords: []
 license: []
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000130/versions/draft/assets/
-name: Dorsomedial frontal cortex spiking activity during time interval reproduction
+name: Macaque dorsomedial frontal cortex spiking activity during time interval reproduction
   task
 protocol: []
 relatedResource: []
