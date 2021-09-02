@@ -2,21 +2,51 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000130
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
-about: []
-access: []
+about:
+- identifier: UBERON:0001870
+  name: Frontal cortex
+  schemaKey: Anatomy
+access:
+- contactPoint:
+    schemaKey: ContactPoint
+  schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Pei, Felix (2021) Macaque dorsomedial frontal cortex spiking activity during
-  time interval reproduction task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft
+citation: Sohn, Hansem; Jazayeri, Mehrdad (2021) Macaque dorsomedial frontal cortex
+  spiking activity during time interval reproduction task (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000130/draft
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Pei, Felix
   roleName:
   - dcite:ContactPerson
+  - dcite:Maintainer
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  identifier: 0000-0001-8593-7473
+  includeInCitation: true
+  name: Sohn, Hansem
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  identifier: 0000-0002-9764-6961
+  includeInCitation: true
+  name: Jazayeri, Mehrdad
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2021-08-21T19:29:11.649012+00:00'
 description: This dataset contains sorted unit spiking times from a macaque performing
@@ -28,14 +58,22 @@ description: This dataset contains sorted unit spiking times from a macaque perf
 ethicsApproval: []
 id: DANDI:000130/draft
 identifier: DANDI:000130
-keywords: []
-license: []
+keywords:
+- Neural Latents Benchmark
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000130/versions/draft/assets/
 name: Macaque dorsomedial frontal cortex spiking activity during time interval reproduction
   task
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 10.1016/j.neuron.2019.06.012
+  name: Bayesian computation through cortical latent dynamics
+  relation: dcite:IsDescribedBy
+  repository: Neuron
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2019.06.012
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
