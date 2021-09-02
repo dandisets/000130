@@ -5,11 +5,9 @@
 about:
 - identifier: UBERON:0001870
   name: Frontal cortex
-  schemaKey: Anatomy
 access:
 - contactPoint:
     schemaKey: ContactPoint
-  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   approach:
@@ -32,9 +30,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: Sohn, Hansem; Jazayeri, Mehrdad (2021) Macaque dorsomedial frontal cortex
-  spiking activity during time interval reproduction task (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000130/draft
+citation: 'Sohn, Hansem; Jazayeri, Mehrdad (2021) DMFC_RSG: macaque dorsomedial frontal
+  cortex spiking activity during time interval reproduction task (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft'
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -77,19 +75,19 @@ id: DANDI:000130/draft
 identifier: DANDI:000130
 keywords:
 - Neural Latents Benchmark
+- NLB
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000130/versions/draft/assets/
-name: Macaque dorsomedial frontal cortex spiking activity during time interval reproduction
-  task
+name: 'DMFC_RSG: macaque dorsomedial frontal cortex spiking activity during time interval
+  reproduction task'
 protocol: []
 relatedResource:
 - identifier: 10.1016/j.neuron.2019.06.012
   name: Bayesian computation through cortical latent dynamics
   relation: dcite:IsDescribedBy
   repository: Neuron
-  schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2019.06.012
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
