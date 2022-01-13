@@ -37,6 +37,8 @@
 ],
 "dateModified":
 "2021-11-03T23:51:28.367704-04:00",
+"datePublished":
+"2022-01-13T04:07:42.017419+00:00",
 "digest":
 {
 "dandi:dandi-etag":
@@ -68,6 +70,34 @@
 ],
 "path":
 "sub-Haydn/sub-Haydn_desc-test_ecephys.nwb",
+"publishedBy":
+{
+"endDate":
+"2022-01-13T04:07:42.017419+00:00",
+"id":
+"urn:uuid:75d84ce3-d474-4814-a592-5f10522abf9c",
+"name":
+"DANDI publish",
+"schemaKey":
+"PublishActivity",
+"startDate":
+"2022-01-13T04:07:42.017419+00:00",
+"wasAssociatedWith":
+[
+{
+"id":
+"urn:uuid:da320d7e-7354-4eb8-8035-2f56a341a98c",
+"identifier":
+"RRID:SCR_017571",
+"name":
+"DANDI API",
+"schemaKey":
+"Software",
+"version":
+"0.1.0"
+}
+]
+},
 "repository":
 "https://dandiarchive.org/",
 "schemaKey":
@@ -212,6 +242,8 @@
 ],
 "dateModified":
 "2021-11-03T23:51:28.379582-04:00",
+"datePublished":
+"2022-01-13T04:07:42.017515+00:00",
 "digest":
 {
 "dandi:dandi-etag":
@@ -243,6 +275,34 @@
 ],
 "path":
 "sub-Haydn/sub-Haydn_desc-train_ecephys.nwb",
+"publishedBy":
+{
+"endDate":
+"2022-01-13T04:07:42.017515+00:00",
+"id":
+"urn:uuid:0a23d5b7-ea82-4018-aad1-4fa051f06f1d",
+"name":
+"DANDI publish",
+"schemaKey":
+"PublishActivity",
+"startDate":
+"2022-01-13T04:07:42.017515+00:00",
+"wasAssociatedWith":
+[
+{
+"id":
+"urn:uuid:c30e2e7e-19cb-47c9-b797-143e71c75a48",
+"identifier":
+"RRID:SCR_017571",
+"name":
+"DANDI API",
+"schemaKey":
+"Software",
+"version":
+"0.1.0"
+}
+]
+},
 "repository":
 "https://dandiarchive.org/",
 "schemaKey":

@@ -32,7 +32,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Sohn, Hansem; Jazayeri, Mehrdad (2021) DMFC_RSG: macaque dorsomedial frontal
+citation: 'Sohn, Hansem; Jazayeri, Mehrdad (2022) DMFC_RSG: macaque dorsomedial frontal
   cortex spiking activity during time interval reproduction task (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft'
 contributor:
@@ -66,12 +66,13 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2021-08-21T19:29:11.649012+00:00'
-description: This dataset contains sorted unit spiking times from a macaque performing
+description: 'This dataset contains sorted unit spiking times from a macaque performing
   a time-interval reproduction task. In the experimental task, the monkey was presented
   with two stimuli separated by a specific interval of time. The monkey then attempted
   to time their response such that the interval between the second stimulus and their
   response matched the interval separating the two stimuli. Neural activity was recorded
-  from neural probes implanted in the dorsomedial frontal cortex.
+  from neural probes implanted in the dorsomedial frontal cortex. Provided as part
+  of the Neural Latents Benchmark: https://neurallatents.github.io.'
 ethicsApproval: []
 id: DANDI:000130/draft
 identifier: DANDI:000130
