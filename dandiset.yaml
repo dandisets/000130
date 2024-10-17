@@ -32,9 +32,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Sohn, Hansem; Jazayeri, Mehrdad (2022) DMFC_RSG: macaque dorsomedial frontal
-  cortex spiking activity during time interval reproduction task (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000130/draft'
+citation: 'Sohn, Hansem; Jazayeri, Mehrdad (2024) DMFC_RSG: macaque dorsomedial frontal
+  cortex spiking activity during time interval reproduction task (Version 0.241017.1448)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000130/0.241017.1448'
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -66,6 +66,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2021-08-21T19:29:11.649012+00:00'
+datePublished: '2024-10-17T14:48:17.698432+00:00'
 description: 'This dataset contains sorted unit spiking times from a macaque performing
   a time-interval reproduction task. In the experimental task, the monkey was presented
   with two stimuli separated by a specific interval of time. The monkey then attempted
@@ -73,8 +74,9 @@ description: 'This dataset contains sorted unit spiking times from a macaque per
   response matched the interval separating the two stimuli. Neural activity was recorded
   from neural probes implanted in the dorsomedial frontal cortex. Provided as part
   of the Neural Latents Benchmark: https://neurallatents.github.io.'
+doi: 10.48324/dandi.000130/0.241017.1448
 ethicsApproval: []
-id: DANDI:000130/draft
+id: DANDI:000130/0.241017.1448
 identifier: DANDI:000130
 keywords:
 - Neural Latents Benchmark
@@ -82,10 +84,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000130/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000130/0.241017.1448/assets.yaml
 name: 'DMFC_RSG: macaque dorsomedial frontal cortex spiking activity during time interval
   reproduction task'
 protocol: []
+publishedBy:
+  endDate: '2024-10-17T14:48:17.698432+00:00'
+  id: urn:uuid:41ab9455-8412-42e7-8672-7e0b8a7d3f1d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-10-17T14:48:17.698432+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0bbe9d1e-9c06-4065-9f8a-f5243cd40e51
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1016/j.neuron.2019.06.012
   name: Bayesian computation through cortical latent dynamics
@@ -93,10 +107,10 @@ relatedResource:
   repository: Neuron
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2019.06.012
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000130/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000130/0.241017.1448
+version: 0.241017.1448
 wasGeneratedBy: []
